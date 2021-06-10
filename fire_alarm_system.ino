@@ -71,7 +71,7 @@ int flame_detected = analogRead(flame_sensor); // read analog input pin A0
       
     }
      Serial.print("Sensor Value: ");      // prints reading on serial monitor
-  Serial.println(flame);
+  Serial.println(flame_detected);
 
     
   
